@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:7px 28px;
+    padding-right: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+    width: 1000px;
+    padding:  13px 3px 12.5px 0;
+}
+
+ul li{
+    list-style-type: none;
+     margin-top: 16px;
+}
+
+li:nth-of-type(2),li:nth-of-type(1){
+    margin-right: 24px;
+}
+li:nth-of-type(3){
+       margin-right: 2px;
+}
+.title{
+     margin-right: 300px;
+     font-weight: 900;
+     font-size: 25px;
+}
+ul{
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links ul> li >a{
+    color: black;
+}
+.main{
+    padding: 48.5px 50px 63px 10px;
+    background-color: blue;
+    width: 1000px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 50px;
+    margin-top: -5px;
+}
+h1{
+    font-size: 65px;
+    margin-bottom: 43.5px;
+
+}
+
+.main> p{
+    font-size: 33px;
+}
+.content{
+  
+    width: 700px;
+}
+.content> p:nth-of-type(1){
+    font-size: 20px;
+     margin-bottom: 34px;
+}
+
+.content> h2{
+      font-family: Roboto,sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      margin-bottom: 33px;
+}
+
+.content> p:nth-of-type(2){
+    font-size: 20px;
+     margin-bottom: 20px;
+}
+
+.content> p:nth-of-type(3){
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+
+.content> p:nth-of-type(4){
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+.content> p:nth-of-type(5){
+     font-size: 14px;
+     width: 700px;
+     font-weight: 500;
+     font-family: Roboto,sans-serif;
+}
+
+img{
+    width: 1000px;
+    height: auto;
+    margin-bottom: 13px;
+}
+.nav{
+    margin-right: 20px;
+}

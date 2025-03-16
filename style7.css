@@ -1,0 +1,41 @@
+div {
+    background-color: #833ae0;
+    border-radius: 10px;
+    padding:35px 10px 40px 10px ;
+    margin: 10px 10px;
+    color: white;
+    box-sizing: border-box;
+    width: 330px;
+    height: 200px;
+  }
+  p{
+      padding:0 5px;
+      margin: 0;
+  
+  }
+  img{
+      width: 50px;
+      margin: 0;
+  }
+  
+  .card-number{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 25px;
+  }
+  .name{
+      font-family: monospace ;
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-weight: 600;
+  }
+  .valid{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 9px;
+  
+  }
+  .date{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .content{
+      margin-top: -4px;
+  }

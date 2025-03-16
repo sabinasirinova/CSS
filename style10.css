@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Roboto,sans-serif;
+    height: 100vh;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-collapse: collapse;
+}
+
+
+th{
+    background-color: #833AE0;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #EE81EE;
+}
+
+tbody tr:nth-child(even) {
+  background-color:lavender;
+
+}
+tbody tr:hover{
+    background-color: #DEB887;
+    position: relative;
+}
+
+table{
+  border-radius: 2px;
+}
+
+.pop-up{
+  display: none;
+}
+
+tbody tr:hover  .pop-up{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: absolute;
+  bottom: 5px;
+  left: 120px;
+  background-color: rgb(228, 224, 224);
+  width: 200px;
+
+
+}
+td ,th{
+  padding: 8px 0;
+}
