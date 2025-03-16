@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+      font-family: Montserrat,sans-serif;
+      box-sizing: border-box;
+}
+h1{
+    font-weight:900 ;
+}
+table{
+    background-color: #f0fff8;
+    border-collapse: collapse;
+    width: 720px;
+
+}
+
+table tr td{
+  border: 1px solid  #80ced6;
+padding: 10px;
+}
+h3{
+    font-weight: 900;
+}
+
+p,ul{
+    width: 720px;
+    border: 1px solid  #80ced6;
+padding: 30px;
+ background-color: #f0fff8;
+ border-radius: 5px;
+}
+ul li{
+    list-style-type: square
+}

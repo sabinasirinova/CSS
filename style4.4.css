@@ -1,0 +1,16 @@
+h1{
+    color : red;
+    text-align: center;
+}
+table{
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+}
+th{
+    color : lightgray;
+    text-align: center;
+}
+td, th {
+  border-bottom: 1px solid #b0a160;
+  padding: 4px 40px; 
+}

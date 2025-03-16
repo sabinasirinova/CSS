@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: Montserrat, sans-serif;
+  color: darkslategrey;
+}
+.title {
+  background-color: yellow;
+  font-weight: 900;
+}
+
+p:first-of-type {
+  font-style: italic;
+}
+
+.macs>li {
+  font-weight: 600;
+}
+
+
+.portables>li{
+  font-style: italic;
+}
